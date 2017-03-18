@@ -1,14 +1,15 @@
 html {
   height: 100%;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 
 body {
   background-color: #070707;
-  width: 800px;
+
   height: 100%;
   font-size: -webkit-xxx-large;
+  color: #efb917
 }
 .font{
   color: #f7bf18
@@ -26,7 +27,7 @@ img {width: 500px;
 }
 .bordertext{
   border:white solid 10px;
-  width: 25%;
+  width: 42%;
   color: #ea220b;
 }
 
@@ -80,4 +81,12 @@ footer {
   color: #f2f0e8;
   clear: both;
   display: block;
+}
+.left-column{
+  float: left;
+  width: 70%;
+}
+.right-column{
+  float: right;
+  width:30%;
 }
